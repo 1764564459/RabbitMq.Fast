@@ -20,7 +20,8 @@ namespace RabbitMq.Fast.RabbitMQ
             {
                 UserName= "guest",
                 Password= "guest",
-                HostName="127.0.0.1"
+                HostName="127.0.0.1",
+                Port=5672,
             };
 
             //创建连接
@@ -57,7 +58,8 @@ namespace RabbitMq.Fast.RabbitMQ
             {
                 UserName = "guest",
                 Password = "guest",
-                HostName = "127.0.0.1"
+                HostName = "127.0.0.1",
+                Port=5672
             };
 
             //创建连接
@@ -167,6 +169,8 @@ namespace RabbitMq.Fast.RabbitMQ
                 channel.BasicPublish(_exchange, _routeKey, null, sendBytes);
 
             } while (input.Trim().ToLower() != "exit");
+
+            
             channel.Close();
             connect.Close();
         }

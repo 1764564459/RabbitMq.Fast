@@ -21,7 +21,8 @@ namespace RabbitMq.Fast.RabbitMQ
             {
                 UserName = "guest",
                 Password = "guest",
-                HostName = "127.0.0.1"
+                HostName = "127.0.0.1",
+                Port=5672
             };
 
             //创建连接
