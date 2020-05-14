@@ -1,4 +1,5 @@
-﻿①、安装erlang:https://www.erlang.org/downloads => * Windows 64-bit Binary File
+﻿cnblog:https://www.cnblogs.com/yan7/p/9498685.html
+①、安装erlang:https://www.erlang.org/downloads => * Windows 64-bit Binary File
 ②、安装 rabbitmq-server：https://www.rabbitmq.com/install-windows.html
 ③、Nuget:RabbitMQ.Client
 ③、RabblitMq添加、查看用户：cd F:\RabbitMQ\rabbitmq_server-3.8.3\sbin 

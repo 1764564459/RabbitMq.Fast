@@ -90,6 +90,7 @@ namespace RabbitMq.Fast.RabbitMQ
         /// <summary>
         /// Direct Exchange 路由模式【消费者根据路由名称订阅发布信息】
         /// </summary>
+        /// <param name="RouteKey">路由【直动路由：Fast】</param>
         public static void Direct(string RouteKey)
         {
             //交换机名称
